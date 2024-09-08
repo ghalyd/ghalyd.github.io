@@ -1,0 +1,218 @@
+
+body{
+
+    background-color: #1D1D02;
+  }
+
+
+  /* sub classes*/
+  .rtl{
+    direction: rtl;
+  }
+  .ltr{
+    direction: ltr;
+  }
+  .middle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .coloredRtl{
+    border-right: solid #ffd52d;
+  }
+  .coloredLtr{
+    border-left: solid #ffd52d;
+  }
+
+  .coloredRtlCube{
+    border-right: 20px solid #5C7CFA;
+  }
+  .coloredLtrCube{
+    border-left: 20px solid #5C7CFA;
+  }
+
+  .burlywood{
+    background-color: burlywood;
+  }
+
+  .white{
+    background-color: rgb(255,255,255);
+  }
+
+  .yellow-ffd52d{
+    background-color: #ffd52d;
+  }
+
+  .whiteBorder{
+    border: 1px solid #ffff;
+  }
+
+  .whiteFont{
+    color: #ffff;
+  }
+
+  .darkFont{
+    color:rgb(0,0,0);
+  }
+
+
+  .HeadBlock{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    
+    color: white;
+    border: 1px solid #ffff;
+  }
+
+
+  .MainTitle{
+
+    position: relative;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    
+    color: white;
+
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
+
+  
+
+  
+
+  .Introduction{
+
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    color: #ffff;
+
+    padding: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+ }
+
+
+  
+
+  .SubTitle{
+
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: bolder;
+    color: #ffff;
+
+    padding: 10px;
+    
+
+ }
+
+
+ .TextBlock{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+    padding: 10px;
+    overflow:hidden;
+ }
+
+ .TextBlock img{
+  float: left;
+  border: solid #ffff;
+ }
+ 
+ .GraphicBlock{
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 25px;
+
+    margin-left: 200px;
+    margin-right: 200px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+
+    
+
+ }
+
+ 
+
+
+  
+  @media screen and (max-width: 1000px) {
+
+        .HeadBlock{
+                margin-left: 0px;
+                margin-right: 0px;
+         }
+        .MainTitle{
+                margin-left: 0px;
+                margin-right: 0px;
+        }
+        .Introduction{
+                margin-left: 0px;
+                margin-right: 0px;
+        }
+        .SubTitle{
+                margin-left: 0px;
+                margin-right: 0px;
+                font-size: 21px;
+                font-weight: bold;
+        }
+        .TextBlock{
+                margin-left: 0px;
+                margin-right: 0px;
+                font-size: 20px;
+        }
+        .GraphicBlock{
+                margin-left: 0px;
+                margin-right: 0px;
+                font-size: 20px;
+        }
+
+
+}
